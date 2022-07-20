@@ -1,0 +1,117 @@
+* {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0bea6;
+    align-items: center;
+    height: 100px;
+    font-size: 30px;
+}
+
+.nav a:link , .nav a:visited, .nav a:hover {
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(/fonts/Raleway/Raleway-VariableFont_wght.ttf)
+}
+
+section, about-image-container {
+    max-width: 100%;
+}
+
+#homepage-header {
+    opacity: 1;
+    color:white;
+    text-align: center;
+    font-size: 80px;
+    left: 100px;
+    top: 40%;
+    z-index: 10;
+    position: absolute;
+}
+
+#homepage {
+    opacity: .50;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+}
+
+/*  ABOUT ME */
+
+#hollywood, #giesel {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+}
+
+#bio-para {
+    font-size: 20px;
+    float: left;
+    width: 60%;
+    margin-left: 35px;
+    line-height: 2;
+    margin-top: 100px;
+}
+
+#bio-image {
+    width: 400px;
+    margin-left: 100px;
+}
+
+#education, #experience, #extracurriculars {
+    display: flex;
+    width: 30%;
+    margin: 0 1.5%;
+    float: left;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.extra p, ol, li {
+    line-height: 2;
+}
+
+/* CONTACT PAGE */
+
+#contact-header {
+    color: black;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+
+
