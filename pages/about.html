@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 
     <head>
         <meta charset="UTF-8">
@@ -11,21 +11,26 @@
         <header>
             <!--Navigation-->
             <nav class="nav">
-                <a href="../index.html">Home</a> 
-                <a href="../pages/contact.html">Contact</a> 
-                <a href="https://www.linkedin.com/in/haileymtran/">LinkedIn</a> 
-                <a href="../pages/experiments.html">Experiments</a> 
+                <ul class="nav-ul">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                    <li><a href="https://www.linkedin.com/in/haileymtran/">LinkedIn</a></li>
+                    <li><a href="../pages/experiments.html">Experiments</a></li>
+                </ul>
             </nav>
         </header>
 
+        <!--
         <section class="about-image-container">
             <picture>
                 <img src="../images/hollywood.jpeg" alt="Hollywood Image" id="hollywood">
             </picture>
         </section>
+        -->
 
         <section class="bio">
             <h2 id="bio-header">About Hailey</h2>
+            <h1 id="bio-sub-header">Aspiring Web Developer</h1>
                 <p id="bio-para">
                     Hello! My name is Hailey Tran! I'm currently a senior at the University of California San Diego and I am 
                     majoring in Mathematics Computer Science & minoring in Sociology. I graduate at the end of Summer of 2022.
@@ -53,14 +58,14 @@
 
         -->
 
-        <hr>
-
+        <h2 id="eee-header">Education, Experience, Extracurriculars</h2>
         <section class="extra">
+            <!--
             <picture>
                 <img src="../images/giesel.jpeg" alt="Giesel Library image" id="giesel">
             </picture>
-            <h2>Education, Experience, Extracurriculars</h2>
-            <aside id="education">
+            -->
+            <section id="education">
                 <h3>Education</h3>
                 <p>
                     <b>University of California San Diego</b> <br>
@@ -68,11 +73,11 @@
                     <b>Los Angeles Mission College</b> <br>
                     ADT in <i>Mathematics</i>
                 </p>
-            </aside>
+            </section>
 
-            <hr>
+            
 
-            <aside id="experience">
+            <section id="experience">
                 <h3>Experience</h3>
                 <p>
                     <ul>
@@ -94,17 +99,17 @@
                         </li>
                     </ul>
                 </p>
-            </aside>
+            </section>
 
-            <hr>
+            
 
-            <aside id="extracurriculars">
+            <section id="extracurriculars">
                 <h3>Extracurriculars</h3>
                 <p>
-                    <ol>
-                        <li>Girls Who Code | Secretary
+                    <ul>
+                        <li class="club-li">Girls Who Code | Secretary
                             <details>
-                                <summary>Responsibilities & Duties</summary>
+                                <summary>Responsibilities & Duties</summary> 
                                 <p>
                                     <ul>
                                         <li>
@@ -120,8 +125,8 @@
                                 </p>
                             </details>
                         </li>
-
-                        <li>SENDforC | Logistics Chair
+                        <br>
+                        <li class="club-li">SENDforC | Logistics Chair
                             <details>
                                 <summary>Responsibilities & Duties</summary>
                                 <p>
@@ -136,7 +141,8 @@
                                 </p>
                             </details>
                         </li>
-                        <li>Association for Women in Mathematics | Mentorship Committee
+                        <br>
+                        <li class="club-li">Association for Women in Mathematics | Mentorship Committee
                             <details>
                                 <summary>Responsibilities & Duties</summary>
                                 <p>
@@ -151,16 +157,19 @@
                                 </p>
                             </details>
                         </li>
-                    </ol>
+                    </ul>
                 </p>
-            </aside>
+            </section>
 
-            <hr>
+            
         </section>
-
-    <footer>
-        <p>💯This page was made with &hearts; by Hailey Tran 💯</p>
-    </footer>
+    
+    <section id="footer">
+        <footer>
+            <a href="#top">Jump to the top of the page</a>
+        </footer>
+    </section>
+    
     
     </body>
 
